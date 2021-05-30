@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    color: blanchedalmond;
+}
+body{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    color: blanchedalmond;
+}
+header{
+    height: 40vh;
+    position: relative;
+    border-bottom: 7px solid cornsilk ;
+}
+.btn_again{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border: aliceblue;
+}
+.between{
+    margin: 10px;
+    float: right;
+    color: blanchedalmond;
+
+}
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left{
+    margin-top: 80px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guess{
+    text-align: center;
+    font-size: 2em;
+    width: 150px;
+    height: 100px;
+    margin: 30px;
+    background-color: black;
+    border: 2px solid white;
+}
+.btn_check{
+    width: 150px;
+    height: 60px;
+    color: black;
+
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch ;
+    justify-content: space-around;
+}
+.message{
+    margin-top: 40px;
+margin-bottom: 70px;
+}
+.label-score{
+    margin-bottom: 30px;
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: black;
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+   position: fixed;
+}
+
+#line{
+    color: blanchedalmond;
+    margin: 50px;
+}
